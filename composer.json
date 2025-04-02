@@ -1,0 +1,27 @@
+{
+    "name": "open-source/website-cloner",
+    "description": "A tool to clone websites for offline viewing",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Website Cloner",
+            "email": "example@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^5.0",
+        "symfony/css-selector": "^5.0",
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebsiteCloner\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}

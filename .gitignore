@@ -1,0 +1,8 @@
+/vendor/
+/composer.lock
+/output/*
+!/output/.gitkeep
+/website-cloner.log
+.idea/
+.vscode/
+.DS_Store
