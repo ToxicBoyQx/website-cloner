@@ -22,7 +22,7 @@ Website Cloner is a powerful tool for cloning websites for offline viewing. It c
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/website-cloner.git
+   git clone https://github.com/ToxicBoyQx/website-cloner.git
    cd website-cloner
    ```
 
