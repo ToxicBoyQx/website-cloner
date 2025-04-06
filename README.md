@@ -42,7 +42,7 @@ website-cloner/
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/website-cloner.git
+git clone https://github.com/ToxicBoyQx/website-cloner.git
 cd website-cloner
 composer install
 ```
