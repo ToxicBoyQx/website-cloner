@@ -1,0 +1,462 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+@font-face {
+    font-family: 'FrutigerLT57Condensed';
+    src: url('../fonts/FrutigerLT57Condensed.eot');
+    src: url('../fonts/FrutigerLT57Condensed.eot') format('embedded-opentype'),
+         url('../fonts/FrutigerLT57Condensed.woff2') format('woff2'),
+         url('../fonts/FrutigerLT57Condensed.woff') format('woff'),
+         url('../fonts/FrutigerLT57Condensed.ttf') format('truetype'),
+         url('../fonts/FrutigerLT57Condensed.svg#FrutigerLT57Condensed') format('svg');
+}
+
+@font-face {
+    font-family: 'FrutigerLT77BlackCondensed';
+    src: url('../fonts/FrutigerLT77BlackCondensed.eot');
+    src: url('../fonts/FrutigerLT77BlackCondensed.eot') format('embedded-opentype'),
+         url('../fonts/FrutigerLT77BlackCondensed.woff2') format('woff2'),
+         url('../fonts/FrutigerLT77BlackCondensed.woff') format('woff'),
+         url('../fonts/FrutigerLT77BlackCondensed.ttf') format('truetype'),
+         url('../fonts/FrutigerLT77BlackCondensed.svg#FrutigerLT77BlackCondensed') format('svg');
+} */
+
+@font-face {
+    font-family: FrutigerLTStdCn;
+    src: url(../fonts/FrutigerLTStdCn.eot);
+    src: url(../fonts/FrutigerLTStdCn.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStdCn.woff2) format("woff2"), url(../fonts/FrutigerLTStdCn.woff) format("woff"), url(../fonts/FrutigerLTStdCn.ttf) format("truetype"),
+        url(../fonts/FrutigerLTStdCn.svg#FrutigerLTStdCn) format("svg");
+        font-display: swap;
+}
+
+@font-face {
+    font-family: frutigel;
+    src: url(../fonts/frutigel.eot);
+    src: url(../fonts/frutigel.eot) format("embedded-opentype"), url(../fonts/frutigel.woff2) format("woff2"), 
+		url(../fonts/frutigel.woff) format("woff"), url(../fonts/frutigel.ttf) format("truetype"),
+        url(../fonts/frutigel.svg#frutigel) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: frutigeb;
+    src: url(../fonts/frutigeb.eot);
+    src: url(../fonts/frutigeb.eot) format("embedded-opentype"), url(../fonts/frutigeb.woff2) format("woff2"), url(../fonts/frutigeb.woff) format("woff"), url(../fonts/frutigeb.ttf) format("truetype"),
+        url(../fonts/frutigeb.svg#frutigeb) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd55RomanRegular;
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot);
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd55RomanRegular.woff2) format("woff2"), url(../fonts/FrutigerLTStd55RomanRegular.woff) format("woff"),
+        url(../fonts/FrutigerLTStd55RomanRegular.ttf) format("truetype"), url(../fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerBlack;
+    src: url(../fonts/FrutigerBlack.eot);
+    src: url(../fonts/FrutigerBlack.eot) format("embedded-opentype"), url(../fonts/FrutigerBlack.woff2) format("woff2"), url(../fonts/FrutigerBlack.woff) format("woff"), url(../fonts/FrutigerBlack.ttf) format("truetype"),
+        url(../fonts/FrutigerBlack.svg#FrutigerBlack) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd65Bold_18824;
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot);
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd65Bold_18824.woff2) format("woff2"), url(../fonts/FrutigerLTStd65Bold_18824.woff) format("woff"),
+        url(../fonts/FrutigerLTStd65Bold_18824.ttf) format("truetype"), url(../fonts/FrutigerLTStd65Bold_18824.svg#FrutigerLTStd65Bold_18824) format("svg");
+        font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FrutigerLTStd55RomanRegular';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular') format('svg');
+         font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'FrutigerBlack';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.svg#FrutigerBlack') format('svg');
+         font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'frutigeb';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.svg#frutigeb') format('svg');
+         font-display: swap;
+} */
+
+
+body { margin: 0px; padding: 0px; font-family: 'FrutigerLTStd55RomanRegular'; }
+.container { max-width: 1230px; width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; box-sizing: border-box; }
+/*header { width: 100%; float: left; }
+header img { width: 100%; height: auto; }
+
+footer img { width: 100%; height: auto; }*/
+footer { width: 100%; display: inline-block; }
+.bannerMain { width: 100%; float: left; text-align: center; position: relative; }
+.bannerMain img { width: 100%; height: auto; display: block; }
+.banner-img { position: absolute; bottom: 0px; right: 17%; width: 25%; }
+.bannerCaption { position: absolute; left: 17%; text-align: left; top: 50%; transform: translate(0px, -50%); }
+.bannerCaption .captionTxt1 { color: #f7e6b0; font-size: 22px; text-transform: uppercase; background: #d71920; padding: 7px; display: inline-block; line-height: 1; margin-bottom: 5px; font-family: FrutigerBlack; }
+.bannerCaption .captionTxt2 { color: #000; font-size: 35px; text-transform: uppercase;  line-height: 0.9; font-family: 'FrutigerLTStd55RomanRegular'; }
+.bannerCaption .captionTxt3 { color: #d71920; font-size: 55px; text-transform: uppercase;  line-height: 0.9; font-family: FrutigerBlack; }
+.digital-intiative { width: 100%; float: left; background: #f2f2f2; padding-bottom: 50px; }
+.digital-intiative h2 { text-align: center; font-size: 35px; color: #000;  text-transform: uppercase; font-family: FrutigerBlack; margin: 50px 0; }
+
+.tabContainer { display: flex; width: 100%; justify-content: space-between; }
+.tabContainer .tabMain { width: 25%; margin-right: 30px; margin-top: 125px; }
+.tabContainer .tabMain ul { padding: 0px; margin: 0px; list-style: none; display: inline-block; }
+.tabContainer .tabMain ul li { width: 100%; float: left; border-bottom: 1px solid #b9b9b9; }
+.tabContainer .tabMain ul li a { width: 100%; color: #2f2f2f; font-size: 14px; padding: 15px 0; float: left; line-height: normal; font-weight: bold; text-transform: uppercase;  text-decoration: none; transition: 0.5s; font-family: FrutigerBlack; }
+.tabContainer .tabMain ul li a:hover { color: #d92f25; transition: 0.5s; }
+
+.tabContainer .tabContent { width: 75%; }
+/* .tabsContSec .owl-stage-outer{ margin: 0 -10px; } */
+.customer-convenience{  
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  } 
+.tabsContSec .item { 
+     
+    position: relative;
+ 
+   
+   
+ }
+.tabsContSec .slide { border: #b3b3b3 solid 2px; background: #fff; transition: 0.5s; /*height: calc(100% - 4px)*/ height: 100%; }
+.tabsContSec .slide:hover { border: #d92f25 solid 2px; background: #fff; transition: 0.5s; }
+.tabsContSec .slide .slideImg {  overflow: hidden;  }
+.tabsContSec .slide .slideImg img{ width: 100%; transition: transform 0.5s ease; }
+.tabsContSec .slide:hover .slideImg img { transform: scale(1.1); }
+.tabsContSec .slide .slideTxt { padding: 20px;  }
+.tabsContSec .slide .slideTxt h3 { font-size: 17px; text-transform: uppercase; color: #313131; font-family: FrutigerBlack; transition: all .25s ease-in 0s; margin: 0px; margin-bottom: 15px; 
+
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 40px;
+  line-height: 1.2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+
+}
+.tabsContSec .slide .slideTxt ul { padding: 0px; margin: 0px; list-style: none; min-height: 110px; }
+.tabsContSec .slide .slideTxt li { font-size: 16px; color: #313131; font-family: 'FrutigerLTStd55RomanRegular'; position: relative; padding-left: 20px; margin-bottom: 5px; line-height: normal;
+
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 80px;
+  line-height: 1.2;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;   
+
+}
+.tabsContSec .slide .slideTxt li:before { position: absolute; content: ""; width: 6px; height: 11px; background: url(https://cdn.muthootfinance.com/themes/bartik/images/red-arrow.png); left: 0px; top: 5px; }
+.tabsContSec .slide .slideTxt a { color: #d71920; font-size: 14px; border-bottom: 1px solid transparent; transition: all .15s ease-in 0s; text-decoration: none; }
+.tabsContSec .slide .slideTxt a:hover { text-decoration: underline; }
+.tabsContSec .owl-nav { text-align: center; margin-top: 20px; }
+ 
+
+.tabsContSec .owl-carousel .owl-nav button.owl-prev,
+.tabsContSec .owl-carousel .owl-nav button.owl-next  { 
+    box-shadow: 5px 0 20px rgba(186,34,.24,.4);
+    border-radius: 100%;
+    padding: 2px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 10px;
+    border: transparent solid 2px;
+    position: relative;
+    background: transparent;
+    display: inline-grid;
+    place-content: center   ;
+}
+.tabsContSec .owl-carousel .owl-nav button span{
+    position: relative;
+    z-index: 5;
+    height: 33px;
+}
+.tabsContSec .owl-carousel .owl-nav button.disabled { opacity: 0.5; pointer-events: none; }
+.tabsContSec .owl-carousel .owl-nav button:before  { 
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border: #df3127 solid 2px;
+    border-radius: 100%;
+    transition: all .25s ease-in 0s;
+    -webkit-transition: all .25s ease-in 0s; 
+    background: #df3127;
+    background: -moz-linear-gradient(left,#df3127 0%,#ba2218 100%);
+    background: -webkit-linear-gradient(left,#df3127 0%,#ba2218 100%);
+    background: linear-gradient(to right,#df3127 0%,#ba2218 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3127',endColorstr='#ba2218',GradientType=1);
+}
+.tabsContSec .owl-carousel .owl-nav button.owl-prev:hover,
+.tabsContSec .owl-carousel .owl-nav button.owl-next:hover { border: #df3127 solid 2px; color: #df3127;    }
+.tabsContSec .owl-carousel .owl-nav button:hover:before{
+    opacity: 0;
+}
+.border-anim::before, .border-anim::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.5s linear;
+    background: #fff;
+  }
+  
+  .border-anim .border-anim-span::before, .border-anim .border-anim-span::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.5s linear;
+    background: #fff;
+  }
+  .border-anim:hover::before, .border-anim:hover::after{
+    width: 100%;
+  }
+  .border-anim:hover .border-anim-span::before, .border-anim:hover .border-anim-span::after{
+    height: 100%;
+  }
+  /*----- button 1 -----*/
+  .border-anim::before, .border-anim::after{
+    transition-delay: 0.5s;
+  }
+  .border-anim .border-anim-span::before, .border-anim .border-anim-span::after{
+    transition-delay: 0s;
+  }
+  .border-anim::before{
+    right: 0;
+    top: 0;
+  }
+  .border-anim::after{
+    left: 0;
+    bottom: 0;
+  }
+  .border-anim .border-anim-span::before{
+    left: 0;
+    top: 0;
+  }
+  .border-anim .border-anim-span::after{
+    right: 0;
+    bottom: 0;
+  }
+  .border-anim:hover::before, .border-anim:hover::after{
+    transition-delay: 0s;
+  }
+  .border-anim:hover .border-anim-span::before, .border-anim:hover .border-anim-span::after{
+    transition-delay: 0.5s;
+  }
+
+.forDesk { display: block; }  
+.forMob { display: none; }  
+
+
+.mf_model .modal-dialog {
+  max-width: 850px;
+  height: 100%;
+}
+
+.mf_model .modal-content {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: none;
+}
+
+.mf_model .head {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 30px;
+}
+
+.mf_model .modal-dialog .modal-content .modal-body {
+  padding: 0px;
+}
+
+.mf_model .modal-dialog .modal-content .modal_body {
+  padding: 40px;
+}
+
+.mf_model .head h2 {
+  font-size: 33px;
+  color: #121212;
+  font-family: FrutigerBlack;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.mf_model .modal_body {
+  padding: 40px;
+}
+
+.mf_model .simple_list {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.mf_model .simple_list li { padding-left: 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  padding-bottom: 15px;
+  background: url(https://cdn.muthootfinance.com/themes/bartik/images/bullet.png) left 3px no-repeat;
+}
+
+.mf_model .modal-content .close { position: relative; z-index: 10; right: 20px; top: 15px; opacity: 1; box-shadow: 5px 0 20px rgba(186,34,.24,.4); border-radius: 100%; }
+.mf_model .modal-content .close span { width: 40px; height: 40px; display: block;  }
+.mf_model .modal-content .close span:before { width: 40px; height: 40px; display: block; text-indent: -9999px; background: url(https://cdn.muthootfinance.com/themes/bartik/images/cross-red.png) left top no-repeat; position: absolute; content: ""; }
+.mf_model .modal-content .close span:after { width: 40px; height: 40px; display: block; text-indent: -9999px; background: url(https://cdn.muthootfinance.com/themes/bartik/images/cross-red.png) left -40px no-repeat; position: absolute; content: ""; top: 0px; opacity: 0; transition: 0.5s; }
+
+.mf_model .modal-content .close span:hover:after { opacity: 1; }
+
+a.red-button { box-shadow: 5px 0 20px rgba(186,34,.24,.4); background: linear-gradient(to bottom,#df3127 0,#ba2218 100%); min-width: 140px; margin-top: 20px;  border-radius: 30px; border: 1px solid #9c0e06; cursor: pointer; line-height: 36px; padding: 0 10px; color: #fff; text-decoration: none; display: inline-block; text-align: center; text-transform: uppercase; font-family: FrutigerBlack; transition: 0.5s; position: relative;  }
+
+/* a.red-button:before { background: linear-gradient(to bottom,#df3127 0,#ba2218 100%); position: absolute; content: ""; height: 36px; top: 0px; left: 0px; min-width: 140px; border-radius: 30px; }
+a.red-button:after { background: #fff; position: absolute; content: ""; height: 36px; top: 0px; left: 0px; min-width: 140px; border-radius: 30px; opacity: 0; } */
+
+a.red-button:hover { background: #fff; color: #df3127; transition: 0.5s; }
+
+.tabContainer .tabMain ul.tabs li a.active { color: #d71920!important;}
+
+
+
+
+@media screen and (max-width: 1649px) {
+
+/*header {  display: none; }
+footer {  display: none; }*/
+
+.bannerCaption { left: 13%; }
+.banner-img { right: 13%; }
+
+}
+
+@media screen and (max-width: 1599px) {
+
+.bannerCaption { left: 7%; }
+.banner-img { right: 7%; }
+
+}
+
+@media screen and (max-width: 1399px) {
+
+.bannerCaption { left: 5%; }
+.banner-img { right: 5%; }
+    
+}
+
+
+@media screen and (max-width: 1299px) {
+
+.bannerCaption { left: 40px; }
+.banner-img { right: 40px; }
+
+.bannerCaption .captionTxt1 { font-size: 15px; }
+.bannerCaption .captionTxt2 { font-size: 32px; }
+.bannerCaption .captionTxt3 { font-size: 40px; }
+
+.digital-intiative h2 { font-size: 25px; margin: 30px 0; }
+.tabContainer .tabMain { margin-top: 80px; }
+
+.tabsContSec .owl-nav { padding-right: 15px; }
+
+.customer-convenience{  
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+} 
+
+.mf_model .head h2 { font-size: 18px; }
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+.bannerCaption { left: 15px; }
+.banner-img { right: 15px; }
+.bannerCaption .captionTxt2 { font-size: 25px; }
+.bannerCaption .captionTxt3 { font-size: 30px; }
+
+.mf_model .head h2 { font-size: 18px; }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.bannerCaption { position: relative; transform: none; left: 0; top: 0; padding: 15px; margin-bottom: 30px; }
+.banner-img { display: none; }
+.bannerCaption .captionTxt1 { font-size: 16px; color: #d71920; background: none; padding: 0px; width: 100%; margin-bottom: 10px; }
+.bannerCaption .captionTxt2 { font-size: 22px; text-transform: capitalize; display: inline-block; }
+.bannerCaption .captionTxt3 { font-size: 22px; text-transform: capitalize; display: inline-block; font-family: 'FrutigerLTStd55RomanRegular'; color: #000; }
+
+.forDesk { display: none; }  
+.forMob { display: block; }  
+
+.tabContainer { display: block; }
+.tabContainer .tabMain { width: 100%; margin-right: 0px; margin-top: 0px; }
+.tabContainer .tabContent { width: 100%; }
+.tabsContSec .owl-nav { padding-right: 0px; }
+.tabContainer .tabMain { margin-bottom: 20px; }
+.tabContainer .tabMain ul { display: flex; }
+.tabContainer .tabMain ul li { border-bottom: 0px; border-right: #b9b9b9 solid 1px; }
+.tabContainer .tabMain ul li:last-child { border-right: 0px; }
+.tabContainer .tabMain ul li a { text-align: center; padding: 15px 30px; box-sizing: border-box; font-family: 'FrutigerLTStd55RomanRegular'; text-transform: capitalize; }
+
+.mf_model .head { padding: 15px 45px 15px 15px; }
+.mf_model .modal-dialog .modal-content .modal_body { padding: 15px; }
+.mf_model .modal-content .close { right: 10px; top: 7px; }
+
+
+
+}
+
+
+@media screen and (max-width: 479px) {
+
+.tabContainer .tabMain ul li a { text-align: center; padding: 15px 5px; font-size: 13px;  }
+.bannerCaption .captionTxt2 { margin-bottom: 5px; }
+
+.customer-convenience{  
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+} 
+
+}
+  

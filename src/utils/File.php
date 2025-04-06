@@ -13,10 +13,21 @@ class File
      */
     public static function write(string $path, string $content): bool
     {
+        // Normalize path - replace forward slashes with directory separator
+        $path = str_replace('/', DIRECTORY_SEPARATOR, $path);
+        
+        // Remove any URL components that might be in the path
+        $path = preg_replace('/^https?:\/\//i', '', $path);
+        
         // Create the directory if it doesn't exist
         $directory = dirname($path);
         if (!is_dir($directory)) {
-            mkdir($directory, 0755, true);
+            // Try to create directory with proper error handling
+            if (!@mkdir($directory, 0755, true)) {
+                // Log the error
+                error_log("Failed to create directory: {$directory}");
+                return false;
+            }
         }
         
         return file_put_contents($path, $content) !== false;

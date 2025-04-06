@@ -1,0 +1,105 @@
+@font-face {
+    font-family: FrutigerLTStdCn;
+    src: url(../fonts/FrutigerLTStdCn.eot);
+    src: url(../fonts/FrutigerLTStdCn.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStdCn.woff2) format("woff2"), url(../fonts/FrutigerLTStdCn.woff) format("woff"), url(../fonts/FrutigerLTStdCn.ttf) format("truetype"),
+        url(../fonts/FrutigerLTStdCn.svg#FrutigerLTStdCn) format("svg");
+        font-display: swap;
+}
+
+@font-face {
+    font-family: frutigel;
+    src: url(../fonts/frutigel.eot);
+    src: url(../fonts/frutigel.eot) format("embedded-opentype"), url(../fonts/frutigel.woff2) format("woff2"), 
+		url(../fonts/frutigel.woff) format("woff"), url(../fonts/frutigel.ttf) format("truetype"),
+        url(../fonts/frutigel.svg#frutigel) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: frutigeb;
+    src: url(../fonts/frutigeb.eot);
+    src: url(../fonts/frutigeb.eot) format("embedded-opentype"), url(../fonts/frutigeb.woff2) format("woff2"), url(../fonts/frutigeb.woff) format("woff"), url(../fonts/frutigeb.ttf) format("truetype"),
+        url(../fonts/frutigeb.svg#frutigeb) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd55RomanRegular;
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot);
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd55RomanRegular.woff2) format("woff2"), url(../fonts/FrutigerLTStd55RomanRegular.woff) format("woff"),
+        url(../fonts/FrutigerLTStd55RomanRegular.ttf) format("truetype"), url(../fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerBlack;
+    src: url(../fonts/FrutigerBlack.eot);
+    src: url(../fonts/FrutigerBlack.eot) format("embedded-opentype"), url(../fonts/FrutigerBlack.woff2) format("woff2"), url(../fonts/FrutigerBlack.woff) format("woff"), url(../fonts/FrutigerBlack.ttf) format("truetype"),
+        url(../fonts/FrutigerBlack.svg#FrutigerBlack) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd65Bold_18824;
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot);
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd65Bold_18824.woff2) format("woff2"), url(../fonts/FrutigerLTStd65Bold_18824.woff) format("woff"),
+        url(../fonts/FrutigerLTStd65Bold_18824.ttf) format("truetype"), url(../fonts/FrutigerLTStd65Bold_18824.svg#FrutigerLTStd65Bold_18824) format("svg");
+        font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'helvetica_neue_ltregular';
+    src: url('../fonts/helveticaneuelt-roman-webfont.eot');
+    src: url('../fonts/helveticaneuelt-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuelt-roman-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuelt-roman-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuelt-roman-webfont.ttf') format('truetype');
+         font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueLTProBd';
+    src: url('../fonts/HelveticaNeueLTProBd.eot');
+    src: url('../fonts/HelveticaNeueLTProBd.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTProBd.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueLTProBd.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTProBd.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTProBd.svg#HelveticaNeueLTProBd') format('svg');
+         font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'HELVETICALT77BOLDCONDENSED_0';
+    src: url('../fonts/HELVETICALT77BOLDCONDENSED_0.eot');
+    src: url('../fonts/HELVETICALT77BOLDCONDENSED_0.eot') format('embedded-opentype'),
+         url('../fonts/HELVETICALT77BOLDCONDENSED_0.woff2') format('woff2'),
+         url('../fonts/HELVETICALT77BOLDCONDENSED_0.woff') format('woff'),
+         url('../fonts/HELVETICALT77BOLDCONDENSED_0.ttf') format('truetype'),
+         url('../fonts/HELVETICALT77BOLDCONDENSED_0.svg#HELVETICALT77BOLDCONDENSED_0') format('svg');
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaCECondBold';
+    src: url('../fonts/HelveticaCECondBold.eot');
+    src: url('../fonts/HelveticaCECondBold.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaCECondBold.woff2') format('woff2'),
+         url('../fonts/HelveticaCECondBold.woff') format('woff'),
+         url('../fonts/HelveticaCECondBold.ttf') format('truetype'),
+         url('../fonts/HelveticaCECondBold.svg#HelveticaCECondBold') format('svg');
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'FRUTIGERLT87EXTRABLACKCONDENSED';
+    src: url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.eot');
+    src: url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.eot') format('embedded-opentype'),
+         url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.woff2') format('woff2'),
+         url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.woff') format('woff'),
+         url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.ttf') format('truetype'),
+         url('../fonts/FRUTIGERLT87EXTRABLACKCONDENSED.svg#FRUTIGERLT87EXTRABLACKCONDENSED') format('svg');
+         font-display: swap;
+}
+

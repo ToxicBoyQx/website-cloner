@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'FrutigerBlack';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerBlack.svg#FrutigerBlack') format('svg');
+         font-display: swap;
+}
+
+@font-face {
+    font-family: 'FrutigerLTStd55RomanRegular';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular') format('svg');
+         font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'frutigeb';
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.eot');
+    src: url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.eot') format('embedded-opentype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.woff2') format('woff2'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.woff') format('woff'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.ttf') format('truetype'),
+         url('https://cdn.muthootfinance.com/themes/bartik/css/fonts/frutigeb.svg#frutigeb') format('svg');
+         font-display: swap;
+}
